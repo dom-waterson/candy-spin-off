@@ -1,11 +1,10 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+logs/*
+!.gitkeep
+tmp
+.DS_Store
+.idea
+.build
+npm-debug.log
+**/bower_components/
+**/node_modules/
 
-# Other files and folders
-.settings/
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
