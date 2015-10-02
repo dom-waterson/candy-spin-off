@@ -5,3 +5,55 @@ html{
   -o-background-size: cover;
   background-size: cover;
 }
+
+.gameboard {
+  width: 450px;
+  height: 450px;
+  margin:100px auto;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px; /* future proofing */
+  -khtml-border-radius: 30px; /* for old Konqueror browsers */
+}
+
+.leftTopCorner {
+  border-top-left-radius: 25px;
+}
+.rightTopCorner {
+  border-top-right-radius: 25px;
+}
+.rightBottomCorner {
+  border-bottom-right-radius: 25px;
+}
+.bottomLeftCorner {
+  border-bottom-left-radius: 25px;
+}
+
+.gameCells {
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+.cellborder {
+  border: 1px solid #706b6b;
+}
+
+.transparent {
+  border: 4px solid;
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.5);
+}
+
+.title{
+  width: 450px;
+  height: 100px;
+  margin:100px auto;
+}
+
+.lineUp{
+  color: #ffffff;
+  float: left;
+  text-align: center;
+  width: 150px;
+}
