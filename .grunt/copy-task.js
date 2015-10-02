@@ -27,6 +27,13 @@
             src: ['bower_components/**/*.*'],
             dest: '.build/main-app/app/thirdparty/',
             expand: true
+        },
+
+        mainapplevels: {
+            cwd:'',
+            src: ['main-app/app/levels/*.*'],
+            dest: '.build/',
+            expand: true
         }
     };
 })();
